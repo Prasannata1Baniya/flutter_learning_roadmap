@@ -1,6 +1,8 @@
 void main(){
 
 //var: Type is inferred by Dart
+/*var is a keyword used to declare a variable without explicitly specifying its type. 
+Dart infers the type based on the assigned value. var can be reassigned.*/
 var name ="Prasannata";
 print(name);
 
