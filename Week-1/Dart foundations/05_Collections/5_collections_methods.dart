@@ -26,4 +26,5 @@ final numbers4 = [1, 2, 3, 4];
 final sumWithInitialValue = numbers4.fold(10, (value, element) => value + element);
 print(sumWithInitialValue); // Output: 20
 
+
 }
