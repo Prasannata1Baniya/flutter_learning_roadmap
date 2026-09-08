@@ -7,8 +7,4 @@ void main(){
     }else{
       print("You cannot vote");
     }
-
-
-    
-    
 }
