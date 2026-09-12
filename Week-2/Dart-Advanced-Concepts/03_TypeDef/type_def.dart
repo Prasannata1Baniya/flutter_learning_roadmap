@@ -24,7 +24,27 @@ void main() {
     return a + b;
   }
 
-  Operation operation = add;
+  int subtract(int a, int b) {
+    return a - b;
+  }
 
-  print(operation(10, 20));
+  int multiply(int a, int b) {
+    return a * b;
+  }
+
+  int divide(int a, int b) {
+    return a ~/ b;
+  }
+
+  Operation operation = add;
+  print(operation(10, 20)); // 30
+
+  operation = subtract;
+  print(operation(20, 10)); // 10
+
+  operation = multiply;
+  print(operation(10, 20)); // 200
+
+  operation = divide;
+  print(operation(20, 10)); // 2
 }
