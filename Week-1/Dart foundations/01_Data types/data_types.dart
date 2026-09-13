@@ -28,11 +28,13 @@ print('dynamic value (int): $value');
   print('dynamic value (String): $value');
 
 //final: Assigned once
+//Its value can be determined at runtime.
 final String city="Kathmandu";
 print('final value (String): $city');
 //city="Pokhara"; //Error: Cannot assign value to final variable 'city'.
 
 //const: Compile-time constant
+//Its value must be known before the program runs.
 const int maxUsers = 100;
 print('const value (int): $maxUsers');
 
